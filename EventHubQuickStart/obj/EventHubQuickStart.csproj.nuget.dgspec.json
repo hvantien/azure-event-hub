@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hvtien3/code/azure-event-hub/EventHubQuickStart/EventHubQuickStart.csproj": {}
+  },
+  "projects": {
+    "/home/hvtien3/code/azure-event-hub/EventHubQuickStart/EventHubQuickStart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hvtien3/code/azure-event-hub/EventHubQuickStart/EventHubQuickStart.csproj",
+        "projectName": "EventHubQuickStart",
+        "projectPath": "/home/hvtien3/code/azure-event-hub/EventHubQuickStart/EventHubQuickStart.csproj",
+        "packagesPath": "/home/hvtien3/.nuget/packages/",
+        "outputPath": "/home/hvtien3/code/azure-event-hub/EventHubQuickStart/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hvtien3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Azure.Messaging.EventHubs": {
+              "target": "Package",
+              "version": "[5.9.1, )"
+            },
+            "Azure.Messaging.EventHubs.Processor": {
+              "target": "Package",
+              "version": "[5.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
